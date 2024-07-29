@@ -1,0 +1,1056 @@
+@charset "utf-8";
+
+
+/* ------------------ COMEÇO HEADER E CABEÇALHO --------------------- */
+header {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: solid 2px #B4B4B4;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+header p {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+}
+
+.logo {
+    border: none;
+    margin-left: 40px;
+    padding-block: 25px;
+}
+
+
+img{
+    z-index: 1;
+}
+
+
+
+.texto {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.sobre-btn:hover{
+    text-shadow: 0px 0px 10px rgb(255, 217, 0);
+    color: rgb(250, 227, 21);
+    font-weight: 600;
+}
+
+.quiz:hover{
+    text-shadow: 0px 0px 19px rgb(3, 148, 68);
+    color:  rgb(3, 148, 68);
+    font-weight: 600;
+}
+
+.mundo-o{
+    text-decoration: none;
+}
+
+.origem-olimpiadas{
+    border-radius:20%;
+}
+
+.origem-img{
+    margin-left: 200px;
+}
+
+/*-------- COMEÇO MENU SUSPENSO ---------*/
+
+.menu2{
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 100;
+}
+
+.button2{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.historia{
+    display: none;
+    font-size: 12px;
+    position: fixed;
+    min-width: 270px;
+    background-color: #161616ec;
+    border: 4px solid #94949456;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.432);
+}
+
+.historia a{
+    color: #ffffff;
+    padding: 1px 1px;
+    border: solid 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.btn2{
+    margin-left: 15px;
+}
+
+.menu2:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 0px 10px  rgb(0, 183, 255);
+    color:   rgb(0, 183, 255);
+    font-weight: 600;
+}
+
+.menu2:hover .historia {
+    display: block;
+}
+
+.origem a:hover{
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+.antigas a:hover{
+    background-color:rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.atuais a:hover{
+    background-color:rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.paraolimpiadas a:hover{
+    background-color:rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.sedes-btn a:hover{
+    background-color:rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+.menu {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 110;
+}
+
+.button {
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.modalidades {
+    display: none;
+    font-size: 14px;
+    position: fixed;
+    min-width: 270px;
+    background-color: #161616b6;
+    border: 4px solid #94949456;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.432);
+}
+
+.modalidades img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.modalidades a {
+    color: #ffffff;
+    padding: 1px 1px;
+    border: solid 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.azul a:hover {
+    background-color: #008cff83;
+}
+
+.amarelo a:hover {
+    background-color: #ffaa0083;
+}
+
+.preto a:hover {
+    background-color: #000000;
+}
+
+.verde a:hover {
+    background-color: #00b44e83;
+}
+
+.vermelho a:hover {
+    background-color: #ff000067;
+}
+
+
+.menu:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 1px 17px rgb(226, 0, 0);
+    color: rgb(226, 0, 0);
+    font-weight: 600;
+}
+
+.menu:hover .modalidades {
+    display: block;
+}
+
+.sedes2{
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(0, 183, 255);
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.sedes2:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    box-shadow: 0px 0px 20px rgb(0, 225, 255);
+}
+/* -------------- FIM MENU SUSPENSO --------------------- */
+
+/* -------------- COMEÇO FOOTER -------------------- */
+footer{
+    background-color: #444444;
+    padding-top: 10px;
+}
+
+.filipe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.rian{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.iuri{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.gabriela{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.matheus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter:hover{
+    color: rgb(255, 255, 255);
+}
+
+.filipe:hover{
+    color: rgb(0, 204, 255);
+}
+.rian:hover{
+    color: rgb(255, 238, 0);
+}
+.iuri:hover{
+    color: rgb(61, 228, 97);
+}
+.gabriela:hover{
+    color: rgb(255, 0, 0);
+}
+.matheus:hover{
+    color: rgb(0, 0, 0);
+}
+/* ----------------- FIM FOOTER -------------------- */
+
+h4{
+    margin-left: 550px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top:35px;
+    display: block;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parisf{
+    padding-left: 70px;
+}
+
+.links{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: -40px;
+}
+
+hr{
+    margin-top: 60px;
+    margin-inline: 120px;
+}
+
+.desenvolvedores{
+    margin-left: 100px;
+}
+
+.historiaf{
+    margin-left: 100px;
+}
+
+.sobre{
+    margin-left: 100px;
+}
+
+.sobre-paris{
+    margin-left: -20px;
+    
+}
+
+.sobre-paris:hover{
+    filter: blur(0px) grayscale(0%);
+    transition-duration: 1.5s;
+    transform: scale(1.5);
+}
+/* -------- FIM HEADER E CABEÇALHO ------------------ */
+
+/*--------------------- COMEÇO GALERIA DE IMAGENS --------------------*/
+.galeria{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    margin-left: 200px;
+    margin-top: 40px; 
+    margin-right: 280px;
+}
+
+.galeria:hover :not(:hover){
+    filter: blur(5px) grayscale(100%);
+    transition-duration: 1.5s;
+    transform: matrix3d(50px);
+}
+
+.galeria img{
+    height: 120px;
+}
+/* -------------------- FIM GALERIA DE IMAGENS --------------------- */
+
+/* ------------------ COMEÇO PARALLAX -------------------- */
+
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color:rgb(255, 255, 255)0;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.container1 {
+    height: 460px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 405px;
+    left: 700px;
+    transform: translate(-25%, -25%);
+    z-index: 60;
+}
+
+.reiFut{
+    margin-top: -30px;
+    margin-left: 600px;
+    background-color: #000000b9;
+    width: 250px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.textoRF{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #000000c2;
+    color: #ffffff;
+    width: 650px;
+    margin-left: 320px;
+    margin-top: -25px;
+    margin-bottom: 90px;
+}
+
+.reiBask{
+    margin-top: -80px;
+    margin-left: 600px;
+    background-color: #000000b9;
+    width: 250px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.textoRB{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #000000c2;
+    color: #ffffff;
+    width: 650px;
+    margin-left: 320px;
+    margin-top: -5px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 75px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+}
+
+h2 {
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.lion {
+    margin-top: 40px;
+    height: 135px;
+    width: 135px;
+    margin-left: 370px;
+    background-color: #000000b7;
+    border-radius: 20px;
+}
+
+.lion2 {
+    margin-top: -50px;
+    height: 135px;
+    width: 135px;
+    margin-left: 370px;
+    background-color: #000000b7;
+    border-radius: 20px;
+}
+
+
+.king {
+    margin-left: 350px;
+    margin-top: 100px;
+    z-index: 60;
+}
+
+.poloaq {
+    height: 150px;
+    width: 150px;
+    margin-left: 109px;
+}
+
+.cnoa {
+    margin-left: 105px;
+}
+
+.ingrid {
+    display: flex;
+}
+
+.textb {
+    margin-inline: 550px;
+    margin-left: -150px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #0000007a;
+    padding: 50px;
+    color: #fffdfd;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.textm {
+    margin-inline: 550px;
+    margin-right: 80px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #0000007a;
+    padding: 50px;
+    color: #fffdfd;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.textw {
+    margin-inline: 550px;
+    margin-left: 155px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #0000007a;
+    padding: 50px;
+    color: #fffdfd;
+    width: 550px;
+    padding-right: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+.ray1 {
+    margin-left: -0%;
+    height: 550px;
+    width: 150%;
+    border-radius: 20px;
+}
+
+.ray2 {
+    margin-top: -70px;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    margin-left: 135px;
+}
+
+.mi2 {
+    margin-top: -70px;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    margin-left: 1050px;
+}
+
+.ana3 {
+    margin-top: -70px;
+    height: 135px;
+    width: 195px;
+    border-radius: 50%;
+    margin-left: 950px;
+}
+
+.hb {
+    margin-top: 0px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0000007a;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.hp {
+    margin-top: -60px;
+    margin-left: 549px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0000007a;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.hx {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0000007a;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.hs {
+    margin-top: -60px;
+    margin-left: 550px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0000007a;
+    border-radius: 10px;
+    width: 350px;
+}
+
+section.modulo.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px #000000;
+    background-color: rgba(0, 0, 0, 0.589);
+    z-index: 50;
+    border-radius: 20px;
+    margin-inline: 200px;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(251, 0, 0, 0) 40%, #000 100%);
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 30px;
+    animation: surgir 3s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 40%;
+}
+
+section.modulo p {
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+section.modulo.content {
+    padding: 40px 0;
+    background: #67694780
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.modulo.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px #0000009d;
+    z-index: 50;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(251, 0, 0, 0) 40%, #000 100%);
+
+}
+
+/* -------------- COMEÇO IMAGENS DE BACKGROUND PARALLAX ---------------- */
+section.modulo.parallax-1 {
+    background-image: url(IMAGENS/PARIS.png);
+}
+
+section.modulo.parallax-2{
+    background-image: url(https://uploads.metropoles.com/wp-content/uploads/2021/05/17215017/estadio-mane-garrincha-futebol-jogo-bola-_-22.jpg);
+}
+
+section.modulo.parallax-3 {
+    background-image: url(https://lncimg.lance.com.br/uploads/2024/05/Palmeiras-Liverpool-Libertadores-Estevao-scaled-aspect-ratio-512-320-1.jpg);
+}
+
+section.modulo.parallax-4 {
+    background-image: url(https://img.nsctotal.com.br/wp-content/uploads/2024/01/2150910744.jpg);
+}
+
+section.modulo.parallax-5 {
+    background-image: url(https://static01.nyt.com/images/2021/05/22/sports/22nba-edwards/22nba-edwards-videoSixteenByNineJumbo1600.jpg);
+}
+/* ------------------ FIM IMAGENS DE BACKGROUND PARALLAX ---------------------- */
+
+/* ----------------- COMEÇO EFEITOS ----------------- */
+@keyframes surgir {
+    from {
+        translate: -100vw 0;
+        color: hsl(240, 100%, 50%);
+        opacity: 0;
+    }
+
+
+    to {
+        translate: 0 0;
+       
+        opacity: 1;
+    }
+
+}
+
+.tracking-in-contract-bck-bottom {
+    -webkit-animation: tracking-in-contract-bck-bottom 2.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 2.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+/* ------------------ FIM EFEITOS --------------- */
+
+/* ------------- COMEÇO SAIBA MAIS ----------------------- */
+.btn {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    text-decoration: none;
+    margin-left: -150px;
+}
+
+.btn1 {
+    --color: #ffffff;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-left: 1052px;
+    text-decoration: none;
+}
+
+.btn::after,
+.btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    text-decoration: none;
+}
+
+.btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+    color: var(--color2);
+}
+
+.btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+/* -------------------- FIM SAIBA MAIS ---------------------- */
+
+/* --------------- COMEÇO RESPONSIVO ---------------------- */
+@media all and (max-width: 760px) {
+
+    section.modulo p {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    section.modulo.parallax h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-shadow: 7px 7px 7px #000000;
+        z-index: 50;
+        background-color: #000000a2;
+        border-radius: 20px;
+        margin-inline: 0px;
+        margin-top: -50px;
+    }
+
+    section.modulo.content {
+        width: 90%;
+    }
+
+    body {
+        background-color: #000000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        color: #000000;
+        font-family: sans-serif;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 75px;
+        margin-top: 350px;
+        margin-bottom: -50px;
+    }
+
+    h2 {
+        margin-top: 10%;
+        text-align: center;
+        color: #ffffff;
+        margin-right: 450px;
+    }
+
+    /* começo futebol */
+
+    .lion{
+        margin-left: 25px;
+        margin-bottom: 75px;
+    }
+
+    .reiFut{
+        margin-top: -165px;
+        margin-left: 175px;
+        width: 184px;
+    }
+
+    .textoRF{
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .ray2 {
+        margin-top: -85px;
+        height: 135px;
+        width: 135px;
+        border-radius: 50%;
+        margin-left: 0px;
+    }
+
+    .hb {
+        margin-top: -40px;
+        margin-left: 5px;
+        width: 250px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .textb {
+        margin-inline: 550px;
+        margin-left: -165px;
+        margin-top: 5px;
+        color: #ffffff;
+        background-color: #0000007a;
+        padding: 50px;
+        color: #fffdfd;
+        width: 350px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    /* fim futebol */
+
+    /* começo basquete */
+
+    .lion2{
+        margin-left: -5px;
+    }
+
+    .reiBask{
+        margin-top: -90px;
+        margin-left: 130px;
+        width: 235px;
+    }
+
+    .textoRB{
+        margin-top: 35px;
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .ana3{
+        margin-top: -150px;
+        margin-left: -40px;
+        height: 150px;
+        width: 200px;
+    }
+
+    .hs{
+        margin-top: -100px;
+        margin-left: 135px;
+        width: 250px;
+    }
+
+    .textm{
+        margin-left: 0px;
+        width: 275px;
+        margin-left: 10px;
+    }
+
+    /* fim basquete */
+
+    section.modulo.parallax::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(251, 0, 0, 0) 40%, #000 100%);
+    
+    }
+    
+    
+    section.modulo.parallax-1 {
+        background-image: url(IMAGENS/PARIS.png);
+    }
+    
+    section.modulo.parallax-2{
+        background-image: url(https://uploads.metropoles.com/wp-content/uploads/2021/05/17215017/estadio-mane-garrincha-futebol-jogo-bola-_-22.jpg);
+    }
+    
+    section.modulo.parallax-3 {
+        background-image: url(https://lncimg.lance.com.br/uploads/2024/05/Palmeiras-Liverpool-Libertadores-Estevao-scaled-aspect-ratio-512-320-1.jpg);
+    }
+    
+    section.modulo.parallax-4 {
+        background-image: url(https://img.nsctotal.com.br/wp-content/uploads/2024/01/2150910744.jpg);
+    }
+    
+    section.modulo.parallax-5 {
+        background-image: url(https://static01.nyt.com/images/2021/05/22/sports/22nba-edwards/22nba-edwards-videoSixteenByNineJumbo1600.jpg);
+    }
+
+}
+/* ----------------- FIM RESPONSIVO ------------------------ */

@@ -1,0 +1,635 @@
+@charset "utf-8";
+
+body{
+    background-image: url(https://www.alemdaenergia.engie.com.br/uploads/2024/03/piscina-olimpiadas-2024.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.quiz-container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pergunta{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    background-color:  rgba(255, 0, 0, 0.517);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: black -4px 4px 4px;
+    padding: 20px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+#opcoes{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:  rgba(255, 0, 0, 0.514);
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.correto{
+    margin-top: 30px;
+    font-size: 35px;
+    background-color: #8bc34a;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.incorreto{
+    margin-top: 30px;
+    font-size: 35px;
+    background-color: #ff2a2af6;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fim{
+    margin-top: 30px;
+    color: aliceblue;
+    background-color:  rgb(0, 0, 0);
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media all and (max-width: 780px){
+    footer{
+        margin-top: 40px;
+        font-size: 30px;
+        margin-inline: 0px;
+        position: relative;
+    }
+}
+
+
+
+
+header {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: solid 2px #B4B4B4;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+header p {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+}
+
+
+.logo {
+    border: none;
+    margin-left: 40px;
+    padding-block: 25px;
+}
+
+
+
+
+/*-------- COMEÇO MENU SUSPENSO HISTÓRIA (BOOTSRAP)---------*/
+.menu2{
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 100;
+}
+
+.button2{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 4px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.historia{
+    display: none;
+    font-size: 12px;
+    position: fixed;
+    min-width: 270px;
+    background-color: #7c7c7c9d;
+    border: 4px solid #70707073;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.473);
+}
+
+.historia a{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    background-color: white;
+    padding: 1px 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.btn2{
+    margin-left: 15px;
+}
+
+.menu2:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 0px 3px  rgb(0, 183, 255);
+    color:   rgb(0, 183, 255);
+    font-weight: 600;
+}
+
+.menu2:hover .historia {
+    display: block;
+}
+
+.origem a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+.antigas a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.atuais a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.paralimpiadas a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.sedes-btn a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+/*------FIM MENU SUSPENSO HISTÓRIA (BOOTSRAP)------ */
+
+
+
+
+.texto {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.sobre-btn:hover{
+    text-shadow: 0px 0px 3px rgb(255, 217, 0);
+    color: rgb(250, 227, 21);
+    font-weight: 600;
+}
+
+.quiz:hover{
+    text-shadow: 0px 0px 3px rgb(3, 148, 68);
+    color:  rgb(3, 148, 68);
+    font-weight: 600;
+}
+
+
+
+
+
+/* INÍCIO MENU SUSPENSO MODALIDADES (BOOTSRAP) */
+
+.menu {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 110;
+}
+
+.button {
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.modalidades {
+    display: none;
+    font-size: 17px;
+    font-weight: 500;
+    position: fixed;
+    min-width: 290px;
+    background-color: #81818180;
+    border: 4px solid #52525256;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.432);
+}
+
+.modalidades img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.modalidades a {
+    color: #000000;
+    background-color: white;
+    padding: 1px 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.azul a:hover {
+    background-color: #008cff;
+}
+
+.amarelo a:hover {
+    background-color: #ffaa00;
+}
+
+.preto a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.verde a:hover {
+    background-color: #00b44ef5;
+}
+
+.vermelho a:hover {
+    background-color: #ff0000;
+}
+
+.menu:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 0px 3px rgb(226, 0, 0);
+    color: rgb(226, 0, 0);
+    font-weight: 600;
+}
+
+.menu:hover .modalidades {
+    display: block;
+}
+/* FIM MENU SUSPENSO MODALIDADES (BOOTSRAP) */
+
+/* FIM BARRA SUPERIOR */
+
+/* ÍNICIO LAYOUT INICIAL */
+
+.mundo-o{
+    text-decoration: none;
+}
+
+span{
+    font-family: font1;
+    font-size: 70px;
+    color: rgb(196, 172, 107);
+    text-shadow: 2px 4px 2px black;
+}
+
+span:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* FIM LAYOUT INICIAL */
+
+
+
+.origem-olimpiadas{
+    border-radius:20%;
+}
+
+.origem-img{
+    margin-left: 200px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo-quiz{
+    margin-left: 16%;
+}
+
+h1{
+    text-align: center;
+    margin-inline: 300px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    border-radius: 10px;
+    text-shadow: rgb(189, 189, 189) -6px 5px 4px, rgb(255, 255, 255) -9px 9px 3px;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.historiap{
+    margin-left: 50px;
+}
+
+.maop{
+    margin-left: 17px;
+}
+
+.corridap{
+    margin-left: 70px;
+}
+
+.bolap{
+    margin-left: 25px;
+}
+
+.marciaisp{
+    margin-left: 70px;
+}
+
+.aquaticosp{
+    margin-left: 70px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    padding-block: 30px;
+    
+}
+
+.btns p{
+    padding-inline: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    border: solid 1px;
+    border-radius: 20px;
+    padding-block: 5px;
+}
+
+.btns img{
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 50px;
+    border: solid 2px black;
+}
+
+.btns button{
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btns1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.historia{
+    text-decoration: none;
+    background-image: url(https://cdn.braziliantimes.com/website/base/2be/9a3/1b5/993-621-olympic-games-sports-background-with-copy-space-text.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.historia:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.azul{
+    text-decoration: none;
+    background-image: url(https://cpb.org.br/wp-content/uploads/2023/04/BannerSite_Novo_EducacaoParalimpica_1280x640-1-19.png);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.azul:hover{
+    background-color: rgb(0, 162, 255);
+}
+
+.amarelo{
+    text-decoration: none;
+    background-image: url(https://img.freepik.com/fotos-premium/um-desenho-de-um-ciclista-em-um-fundo-amarelo-com-as-palavras-a-bicicleta-na-parte-inferior_1187703-39349.jpg);
+    background-size: cover;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.amarelo:hover{
+    background-color: rgba(255, 230, 0, 0);
+}
+
+.preto{
+    text-decoration: none;
+    background-image: url(https://img.freepik.com/fotos-premium/jogador-de-futebol-abstrato-com-bola_692702-5669.jpg);
+    background-size: 100%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.preto:hover{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.verde{
+    text-decoration: none;
+    background-image: url(https://t4.ftcdn.net/jpg/01/08/98/83/360_F_108988395_vFDD7if0buM7xcApEVFGN4YJkPXTxbvj.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.verde:hover{
+    background-color: rgb(45, 226, 115);
+}
+
+.vermelho{
+    text-decoration: none;
+    background-image: url(https://cpb.org.br/wp-content/uploads/2023/04/BannerSite_Novo_EducacaoParalimpica_1280x640-1-4.png);
+    background-size: cover;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.vermelho:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+footer{
+    background-color: #444444;
+    padding-top: 10px;
+
+}
+
+.filipe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.rian{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.iuri{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.gabriela{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.matheus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter:hover{
+    color: rgb(255, 255, 255);
+}
+
+.filipe:hover{
+    color: rgb(0, 204, 255);
+}
+.rian:hover{
+    color: rgb(255, 238, 0);
+}
+.iuri:hover{
+    color: rgb(61, 228, 97);
+}
+.gabriela:hover{
+    color: rgb(255, 0, 0);
+}
+.matheus:hover{
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    margin-left: 550px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top:35px;
+    display: block;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logof{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+.links{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: -40px;
+}
+
+
+hr{
+    margin-top: 60px;
+    margin-inline: 120px;
+}
+
+.desenvolvedores{
+    margin-left: 100px;
+}
+
+.historiaf{
+    margin-left: 100px;
+}
+
+.sobre{
+    margin-left: 100px;
+}
+

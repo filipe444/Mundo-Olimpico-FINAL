@@ -1,0 +1,495 @@
+@charset "UTF-8";
+
+
+body{
+    background: url(https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/zp8irjlrzfu7s2jdault);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 550px;
+    background-position-y: 200px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: solid 2px #B4B4B4;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+header p {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+}
+
+
+.logo {
+    border: none;
+    margin-left: 40px;
+    padding-block: 25px;
+}
+
+
+
+
+/*-------- COMEÇO MENU SUSPENSO HISTÓRIA (BOOTSRAP)---------*/
+.menu2{
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 100;
+}
+
+.button2{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 4px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.historia{
+    display: none;
+    font-size: 12px;
+    position: fixed;
+    min-width: 270px;
+    background-color: #7c7c7c9d;
+    border: 4px solid #70707073;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.473);
+}
+
+.historia a{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    background-color: white;
+    padding: 1px 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.btn2{
+    margin-left: 15px;
+}
+
+.menu2:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 0px 3px  rgb(0, 183, 255);
+    color:   rgb(0, 183, 255);
+    font-weight: 600;
+}
+
+.menu2:hover .historia {
+    display: block;
+}
+
+.origem a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+.antigas a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.atuais a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.paralimpiadas a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+.sedes-btn a:hover{
+    background-color: rgba(179, 179, 179, 0.699);
+    color: black;
+    font-weight: 700;
+}
+
+/*------FIM MENU SUSPENSO HISTÓRIA (BOOTSRAP)------ */
+
+
+
+
+.texto {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.sobre-btn:hover{
+    text-shadow: 0px 0px 3px rgb(255, 217, 0);
+    color: rgb(250, 227, 21);
+    font-weight: 600;
+}
+
+.quiz:hover{
+    text-shadow: 0px 0px 3px rgb(3, 148, 68);
+    color:  rgb(3, 148, 68);
+    font-weight: 600;
+}
+
+
+
+
+
+/* INÍCIO MENU SUSPENSO MODALIDADES (BOOTSRAP) */
+
+.menu {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 110;
+}
+
+.button {
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.modalidades {
+    display: none;
+    font-size: 17px;
+    font-weight: 500;
+    position: fixed;
+    min-width: 290px;
+    background-color: #81818180;
+    border: 4px solid #52525256;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 20px rgba(139, 139, 139, 0.432);
+}
+
+.modalidades img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.modalidades a {
+    color: #000000;
+    background-color: white;
+    padding: 1px 1px;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.azul a:hover {
+    background-color: #008cff;
+}
+
+.amarelo a:hover {
+    background-color: #ffaa00;
+}
+
+.preto a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.verde a:hover {
+    background-color: #00b44ef5;
+}
+
+.vermelho a:hover {
+    background-color: #ff0000;
+}
+
+.menu:hover button {
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 0px 0px 3px rgb(226, 0, 0);
+    color: rgb(226, 0, 0);
+    font-weight: 600;
+}
+
+.menu:hover .modalidades {
+    display: block;
+}
+/* FIM MENU SUSPENSO MODALIDADES (BOOTSRAP) */
+
+/* FIM BARRA SUPERIOR */
+
+
+
+h1{
+    margin-top: 50px;
+    text-align: start;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.sobre-txt{
+    font-size: 20px;
+    padding-right: 700px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+.missao-box{
+    color: #000000;
+    padding: 40px; 
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-top: 45px;
+    transition: 1s;
+    margin-left: 50px; 
+    margin-right: 500px;
+    display: flex;  
+}
+
+.missao-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff81;
+}
+
+.missao-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+.visao-box{
+    color: #000000;
+    padding: 40px; 
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-top: 45px;
+    transition: 1s;
+    margin-inline: 50px; 
+    display: flex;
+    margin-left: 500px; 
+    margin-right: 50px;
+}
+
+.visao-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff81;
+}
+
+.visao-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+  
+}
+
+.texto-vi{
+    text-align: right;
+}
+
+.valores-box{
+    color: #000000;
+    padding: 40px; 
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-top: 45px;
+    transition: 1s;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px; 
+    margin-right: 500px;
+    
+}
+
+
+.valores-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff81;
+}
+
+.valores-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.valores-img{
+    margin-left: 80px;
+}
+
+
+
+footer{
+    background-color: #444444;
+    padding-top: 10px;
+
+}
+
+.filipe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.rian{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.iuri{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.gabriela{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.matheus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.linkfooter:hover{
+    color: rgb(255, 255, 255);
+}
+
+.filipe:hover{
+    color: rgb(0, 204, 255);
+}
+.rian:hover{
+    color: rgb(255, 238, 0);
+}
+.iuri:hover{
+    color: rgb(61, 228, 97);
+}
+.gabriela:hover{
+    color: rgb(255, 0, 0);
+}
+.matheus:hover{
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    margin-left: 550px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top:35px;
+    display: block;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logof{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+.links{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: -40px;
+}
+
+
+hr{
+    margin-top: 60px;
+    margin-inline: 120px;
+}
+
+.desenvolvedores{
+    margin-left: 100px;
+}
+
+.historiaf{
+    margin-left: 100px;
+}
+
+.sobre{
+    margin-left: 100px;
+}
+
+.sobre-paris{
+    margin-left: -20px;
+    
+}
+
+.sobre-paris:hover{
+    filter: blur(0px) grayscale(0%);
+    transition-duration: 1.5s;
+    transform: scale(1.5);
+}
+
+
+/* ------------------ FIM FOOTER --------------- */
+
+/*---------------------COMEÇO  GALERIA DE IMAGENS --------------------*/
+.galeria{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    margin-left: 200px;
+    margin-top: 40px; 
+    margin-right: 280px;
+}
+
+.galeria:hover :not(:hover){
+    filter: blur(5px) grayscale(100%);
+    transition-duration: 1.5s;
+    transform: matrix3d(50px);
+}
+
+.galeria img{
+    height: 120px;
+}
+/* ------------------- FIM GALERIA DE IMAGENS -------------------------- */
+
+
+
+
